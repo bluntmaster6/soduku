@@ -118,11 +118,9 @@ def main():
         if choice.lower() == "submit":
             if checkSubmission(board):
                 print("Correct Solution!\n")
-                run = False
             else:
                 print("Incorrect Solution\n")
                 boardPrint(boardCopy)
-                run = False
         if choice.lower() == "quit":
             run = False
         elif choice[0].isnumeric() and choice[1]==" " and choice[2].isnumeric() and choice[3] == " " and choice[4].isnumeric():
